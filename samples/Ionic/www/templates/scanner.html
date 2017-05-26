@@ -1,0 +1,38 @@
+<ion-view view-title="Scanner">
+  <ion-content>
+  	<div class="card">
+	  <div class="item item-text-wrap">
+	  	Device Active: {{ipcEnabled}}
+	    <br/>
+	    Event: {{actionEvent}}
+	  </div>
+	</div>
+	<div class="card">
+	  <div class="item item-text-wrap">
+	  	Results
+	    <br/>
+	    {{results}}
+	  </div>
+	</div>
+    <ul class="list">
+	    <li class="item"ng-click="scanOn()">
+	    	Scan On
+	    </li>
+	     <li class="item" ng-click="scanOff()">
+	    	Scan Off
+	    </li>
+	    <li class="item" ng-click="deviceInfo()">
+	    	Device Info
+	    </li>
+	    <li class="item" ng-click="setAutoTimeout()">
+	    	Set Auto Timeout
+	    </li>
+	    <li class="item" ng-click="setPassThrough()">
+	    	Set Pass through
+	    </li>
+	     <li class="item" ng-click="setDeviceCharge()">
+	    	Set Charge
+	    </li>
+	</ul>
+  </ion-content>
+</ion-view>
