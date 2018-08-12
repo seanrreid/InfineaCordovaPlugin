@@ -1,0 +1,24 @@
+{
+  "name": "cordova-infinea-plugin",
+  "version": "1.0.0",
+  "description": "Cordova Plugin for Infinite Peripherals",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/torchcodelab/InfineaCordovaPlugin.git"
+  },
+  "keywords": [
+    "Infinea",
+    "Infinite",
+    "Peripherals"
+  ],
+  "author": "Infinite Peripherals",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/torchcodelab/InfineaCordovaPlugin/issues"
+  },
+  "homepage": "https://github.com/torchcodelab/InfineaCordovaPlugin#readme"
+}
